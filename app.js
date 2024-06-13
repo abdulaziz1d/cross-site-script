@@ -21,6 +21,7 @@ app.post('/data', (req, res) => {
 
     res.status(200).send('Data received and stored');
   });
+console.log(data)
 });
 
 app.listen(port, () => {
